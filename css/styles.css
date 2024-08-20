@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #141414;
+}
+
+.container {
+    background-color: #222222;
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+.imagem {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.imagem img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-name {
+    color: #ececec;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.profile-localization {
+    color: #47cf1e;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.profile-profession {
+    color: #ececec;
+    margin: 25px;
+    font-weight: 300;
+}
+
+.networks-list, a {
+    list-style-type: none;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color: #ececec;
+    padding: 10px;
+}
+
+.networks-list-option {
+    width: 300px;
+    background-color: #303030;
+    margin: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.networks-list-option:hover {
+    transition: background-color 0.3s ease;
+    background-color: #47cf1e;
+}
+
+.networks-list-option a:hover {
+    transition: color 0.3s ease;
+    color: #222222;
+}
+
+.networks {
+    padding-bottom: 20px;
+}
